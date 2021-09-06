@@ -1,0 +1,36 @@
+label{
+    display: block;
+    text-align: left;
+    font-size: .9em;
+    color: #343a40;
+}
+
+.form{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.inp{
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 5px 0;
+    outline: none;
+    border: 2px solid #ced4da;
+    border-radius: 7px;
+}
+.inp:focus{
+    border: 2px solid #495057;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    background-color: #343a40;
+}
+
+.background-text{
+    background-color: #343a40;
+    
+}
+

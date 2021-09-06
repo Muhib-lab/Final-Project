@@ -1,0 +1,416 @@
+        /*..................................home ...................................*/
+  
+.logo{
+    margin-right: 480px;
+    margin-left: 150px;
+}
+
+.tele{
+    margin-left: 100px;
+    
+}
+.anchor{
+    text-decoration: none;
+    color: white;
+   
+}
+.anchor:hover{
+    color:orangered;
+}
+
+
+
+.one{
+        background-color: rgb(3, 3, 51);    
+}
+.custom-toggler.navbar-toggler{
+    border-color: white;
+    color: white;
+}
+
+
+.slider{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.grid-sys{
+    margin-top: -24px;
+}
+
+.first{
+    position: absolute;
+    bottom: 450px;
+    left: 100px;
+    text-align: justify;
+}
+
+.first1{
+    position: absolute;
+    bottom: 350px;
+    left: 100px;
+    text-align: justify;
+}
+
+.first2{
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+
+
+
+.grid-lol{
+    background-color: orangered;
+    height: 240px;
+}
+.grid2{
+    background-color:rgb(3, 3, 51);
+    height: 240px;
+}
+.grid3{
+    background-color: orangered;
+    height: 240px;
+}
+
+.index-teacher{
+    height: 50%;
+    /* margin-left: 50px; */
+}
+.index-all-teacher1{
+    border:lightgrey 2px solid;
+    border-radius: 5px;
+}
+.index-all-teacher2{
+    border:lightgrey 2px solid;
+    border-radius: 5px;
+}
+.index-all-teacher3{
+    border:lightgrey 2px solid;
+    border-radius: 5px;
+}
+.index-all-teacher4{
+    border:lightgrey 2px solid;
+    border-radius: 5px;
+}
+
+
+
+
+.gallery{
+    margin-top: 150px;
+   
+}
+
+.teacher-text{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+   margin-top: 40px;
+   margin-bottom: 60px;
+}
+
+
+.index-admission-btn{
+    background-color: orangered;
+    color: white;
+    border:none;
+
+}
+.index-admission-btn:hover{
+    background-color: white;
+    color: orangered;
+    border: 1px solid;
+    border-color: orangered
+}
+
+.index-testimonal{
+    background-color: rgb(3, 3, 51);
+    color: white;
+    width: 20%;
+    margin: 0px auto !important;   
+    
+
+}
+
+.index-testimonal2{
+    background-color: rgb(3, 3, 51);
+    color: white;
+    width: 20%;
+    padding: 8px;
+}
+
+.index-testimonal4{
+    background-color: rgb(3, 3, 51);
+    color: white;
+    width: 20%;
+    padding: 8px;
+    align-items: center;
+    margin-left: 450px;
+    margin-bottom: 25px;
+}
+
+.index-testimonal3{
+    background-color: rgb(3, 3, 51);
+    color: white;
+    width: 20%;
+    padding: 8px;
+    margin-left: 450px;
+    /* margin: 0px auto !important; */
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+} */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 60px 0;
+    height: 400px;
+    bottom: 0;
+}
+
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.img-salman-about{
+   width: 200px;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+    
+}
+.footer{
+    height: 950px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:800px){
+    .one{
+        margin-top: 70px;
+        width: 100%;
+        display: flex;
+        /* justify-content: space-around; */
+        /* margin-left: -5px; */
+    }
+
+    .two{
+        width: 100%;
+    }
+
+
+    .navi{
+        width: -50px;
+    }
+
+    .tele1{
+        margin-left: -200px;
+    }
+    .tele2{
+        margin-left: -500px;
+
+    }
+    .first{
+       margin-right: 80px;
+       font-family: 'Courier New', Courier, monospace;
+       font-weight:bolder;
+    }
+    .first1{
+        margin-left: -80px;
+        margin-right: 40px;
+        font-size: 1em;
+    }
+    .first2{
+        margin-left: -40px;
+    }
+    .second{
+        margin-right: 80px;
+    }
+    .second1{
+        margin-left: -80px;
+        margin-right: 40px;
+        font-size: 1em;   
+    }
+    .second2{
+        margin-left: -40px;
+    }
+    .third{
+        margin-right: 80px; 
+    }
+    .third1{
+        margin-left: -80px;
+        margin-right: 40px;
+        font-size: 1em;   
+    }
+    .third2{
+        margin-left: -40px;      
+    }
+ 
+.index-second-nav{
+    margin-top: -5px ;
+}
+.index-nav-wwak{
+    margin-left: 50px;
+}
+.index-testimonal{
+    width: 50%;
+    
+}
+
+.index-testimonal2{
+    width: 50%;
+    
+}
+
+.index-testimonal3{
+    margin-left: -10px;
+    margin: 0px auto;
+    width: 50%;
+}
+
+.index-testimonal4{
+    margin-left: -10px;
+    margin: 0px auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+    
+    
+}
+
+
+
+
+/*.............................home end *................................./
+
+
+
+
+/*.............................admission start...........................*/
+
+.admission-hr {
+    border: none;
+    color: black;
+    font-weight: bold;
+    overflow: visible;
+    text-align: center;
+   
+    margin-top: 50px;
+}
+
+
+
+.admission-hr::after{
+    background: #fff;
+    content:'Session 2021-22';
+    font-size: 25px;
+    padding: 0 4px;
+    position: relative;
+    top: -20px;
+}
+.admission-table{
+    width: 70%;
+    
+    
+}
